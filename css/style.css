@@ -31,24 +31,25 @@ figure img {
     margin: 20px auto 0;
 }
 
-article {
-    width: 270px;
-    margin: 20px auto;
-    text-align: center;
+header {
+    width: 280px;
+    margin: 0 auto;
 }
 
-article h1 {
+header h1 {
     color: hsl(218, 44%, 22%);
+    text-align: center;
     font-size: 1.4em;
     margin: 15px;
 }
 
-article p {
+p {
+    width: 270px;
+    margin: 20px auto;
+    text-align: center;
     color: hsl(220, 15%, 55%);
     font-size: 1em;
 }
 
-footer {
-    width: 100%;
-    text-align: center;
-}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
